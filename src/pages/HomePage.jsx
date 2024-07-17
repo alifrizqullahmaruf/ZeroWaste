@@ -1,6 +1,8 @@
+import Features from "../components/Features"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Statistik from "../components/Statistik"
+import ValueCompany from "../components/ValueCompany"
 
 const HomePage = () => {
   return (
@@ -8,6 +10,8 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <Statistik />
+      <Features />
+      <ValueCompany />
     </div>
   )
 }
