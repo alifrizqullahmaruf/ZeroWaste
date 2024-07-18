@@ -1,4 +1,6 @@
+import Category from "../components/Category"
 import Features from "../components/Features"
+import Footer from "../components/Footer"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Statistik from "../components/Statistik"
@@ -12,6 +14,8 @@ const HomePage = () => {
       <Statistik />
       <Features />
       <ValueCompany />
+      <Category />
+      <Footer />
     </div>
   )
 }
