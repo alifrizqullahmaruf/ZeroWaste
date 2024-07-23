@@ -21,35 +21,35 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full h-[130px] px-[20px] md:px-[104px] py-[20px] md:py-[52px] flex items-center z-10 transition-colors duration-300 ${isScrolled ? 'bg-white/50' : 'bg-white'}`}>
+    <nav className={`fixed top-0 w-full h-[80px] px-5 md:px-16 py-5 flex items-center z-10 transition-colors duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-white'}`}>
       <div className='container flex items-center justify-between mx-auto'>
-        <div className='text-[#132322] text-xl font-bold' style={{ fontFamily: 'Montserrat', fontSize: '20px', fontWeight: '700', lineHeight: 'normal' }}>
+        <div className='text-[#132322] text-xl font-bold' style={{ fontFamily: 'Montserrat', fontSize: '20px', fontWeight: '700' }}>
           ZeroWaste
         </div>
-        <div className='hidden space-x-4 md:flex'>
-          <a href='#about' className='text-[#132322] hover:text-gray-300' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600', lineHeight: '20px' }}>
+        <div className='hidden space-x-6 md:flex'>
+          <a href='#about' className='text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>
             ABOUT US
           </a>
-          <a href='#category' className='text-[#132322] hover:text-gray-300' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600', lineHeight: '20px' }}>
+          <a href='#category' className='text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>
             CATEGORY
           </a>
-          <a href='#contact' className='text-[#132322] hover:text-gray-300' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600', lineHeight: '20px' }}>
+          <a href='#contact' className='text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>
             CONTACT
           </a>
         </div>
         <div className='md:hidden'>
-          <FaBars onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-[#132322] cursor-pointer' />
+          <FaBars onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-[#132322] cursor-pointer' size={24} />
         </div>
       </div>
       {isMenuOpen && (
-        <div className='md:hidden absolute top-[130px] left-0 w-full bg-white flex flex-col items-center'>
-          <a href='#about' className='py-2 text-[#132322] hover:text-gray-300' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600', lineHeight: '20px' }}>
+        <div className='md:hidden absolute top-[80px] left-0 w-full bg-white flex flex-col items-center'>
+          <a href='#about' className='py-2 text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>
             ABOUT US
           </a>
-          <a href='#category' className='py-2 text-[#132322] hover:text-gray-300' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600', lineHeight: '20px' }}>
+          <a href='#category' className='py-2 text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>
             CATEGORY
           </a>
-          <a href='#contact' className='py-2 text-[#132322] hover:text-gray-300' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600', lineHeight: '20px' }}>
+          <a href='#contact' className='py-2 text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>
             CONTACT
           </a>
         </div>

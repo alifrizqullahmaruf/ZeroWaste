@@ -4,10 +4,10 @@ import dontIcon from '/src/assets/dont.png';
 
 const DosAndDontsOrg = () => {
   return (
-    <section className='w-full px-4 py-20 bg-white md:px-8'>
+    <section className='w-full px-4 py-10 bg-white md:px-8'>
       <div className='container flex flex-col mx-auto md:flex-row'>
         {/* DO's Section */}
-        <div className='flex flex-col items-center w-full p-8 text-center md:w-1/2 md:text-left'>
+        <div className='flex flex-col items-center w-full p-6 text-center md:w-1/2 md:text-left'>
           <h1 className='text-[#132322] mb-6 text-3xl md:text-4xl font-extrabold text-center' 
               style={{ fontFamily: 'Montserrat', lineHeight: 'normal', width: '100%', maxWidth: '610px' }}>
             DO’s
@@ -34,7 +34,7 @@ const DosAndDontsOrg = () => {
           </ul>
         </div>
         {/* DON'Ts Section */}
-        <div className='flex flex-col items-center w-full p-8 text-center bg-[#BFDED6] md:w-1/2 md:text-left'>
+        <div className='flex flex-col items-center w-full p-6 text-center bg-[#BFDED6] md:w-1/2 md:text-left'>
           <h1 className='text-[#132322] mb-6 text-3xl md:text-4xl font-extrabold text-center' 
               style={{ fontFamily: 'Montserrat', lineHeight: 'normal', width: '100%', maxWidth: '610px' }}>
             DON’Ts

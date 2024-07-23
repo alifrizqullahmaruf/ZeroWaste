@@ -2,10 +2,10 @@ import React from 'react';
 
 const Statistik = () => {
   return (
-    <div className='bg-white py-20 w-full'>
-      <div className='container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1240px]'>
+    <div className='w-full py-20 bg-white'>
+      <div className='container mx-auto grid grid-cols-1 gap-8 max-w-[1240px] px-4 md:grid-cols-3'>
         <div className='text-center'>
-          <h2 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '48px', fontWeight: '800', lineHeight: 'normal' }}>
+          <h2 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '36px', fontWeight: '800', lineHeight: 'normal' }}>
             40-50%
           </h2>
           <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '16px', fontWeight: '400', lineHeight: '24px' }}>
@@ -13,7 +13,7 @@ const Statistik = () => {
           </p>
         </div>
         <div className='text-center'>
-          <h2 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '48px', fontWeight: '800', lineHeight: 'normal' }}>
+          <h2 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '36px', fontWeight: '800', lineHeight: 'normal' }}>
             95,500 tons
           </h2>
           <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '16px', fontWeight: '400', lineHeight: '24px' }}>
@@ -21,7 +21,7 @@ const Statistik = () => {
           </p>
         </div>
         <div className='text-center'>
-          <h2 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '48px', fontWeight: '800', lineHeight: 'normal' }}>
+          <h2 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '36px', fontWeight: '800', lineHeight: 'normal' }}>
             2nd
           </h2>
           <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '16px', fontWeight: '400', lineHeight: '24px' }}>

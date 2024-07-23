@@ -2,12 +2,12 @@ import React from 'react';
 import doIcon from '/src/assets/do.png';
 import dontIcon from '/src/assets/dont.png';
 
-const DosAndDontsOrg = () => {
+const DosAndDontsB3 = () => {
   return (
-    <section className='w-full px-4 py-20 bg-white md:px-8'>
+    <section className='w-full px-4 py-10 bg-white md:px-8'>
       <div className='container flex flex-col mx-auto md:flex-row'>
         {/* DO's Section */}
-        <div className='flex flex-col items-center w-full p-8 text-center md:w-1/2 md:text-left'>
+        <div className='flex flex-col items-center w-full p-6 text-center md:w-1/2 md:text-left'>
           <h1 className='text-[#132322] mb-6 text-3xl md:text-4xl font-extrabold text-center' 
               style={{ fontFamily: 'Montserrat', lineHeight: 'normal', width: '100%', maxWidth: '610px' }}>
             DO’s
@@ -16,25 +16,25 @@ const DosAndDontsOrg = () => {
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={doIcon} alt='Do' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px' }}>
-                Recycle. Separate recyclable materials such as plastics, glass, metals, and paper from other waste.
+                Clearly identify and label B3 waste containers with appropriate hazard symbols and information about the contents.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={doIcon} alt='Do' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px' }}>
-                Reuse items. Consider reusing items like glass jars, containers, or shopping bags.
+                Store B3 waste in a secure place. Use containers that are compatible with the type of waste being stored.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={doIcon} alt='Do' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px' }}>
-                Reduce packaging. Choose products with less packaging or eco-friendly packaging to reduce the amount of inorganic waste generated.
+                Implement waste minimization practices to reduce the generation of B3 waste. This may include using alternative materials, improving processes, or recycling where possible.
               </span>
             </li>
           </ul>
         </div>
         {/* DON'Ts Section */}
-        <div className='flex flex-col items-center w-full p-8 text-center bg-[#BFDED6] md:w-1/2 md:text-left'>
+        <div className='flex flex-col items-center w-full p-6 text-center bg-[#BFDED6] md:w-1/2 md:text-left'>
           <h1 className='text-[#132322] mb-6 text-3xl md:text-4xl font-extrabold text-center' 
               style={{ fontFamily: 'Montserrat', lineHeight: 'normal', width: '100%', maxWidth: '610px' }}>
             DON’Ts
@@ -43,19 +43,19 @@ const DosAndDontsOrg = () => {
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={dontIcon} alt='Dont' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px' }}>
-                Mix inorganic and organic waste. Keep inorganic and organic waste separate to facilitate proper disposal and recycling.
+                Don’t ignore labeling. Ignoring labeling increases the risk of accidental exposure or improper handling.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={dontIcon} alt='Dont' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px' }}>
-                Burn inorganic waste as it can release harmful pollutants into the air and contribute to air pollution.
+                Don’t dispose of electronics improperly. Electronics often contain hazardous materials.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={dontIcon} alt='Dont' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px' }}>
-                Ignore product labels. Pay attention to labels on products, especially those indicating recyclability or special disposal instructions. Follow these guidelines accordingly.
+                Don’t bury or burn B3 waste. Burying or burning B3 waste at home can result in environmental pollution and health hazards.
               </span>
             </li>
           </ul>
@@ -65,4 +65,4 @@ const DosAndDontsOrg = () => {
   );
 };
 
-export default DosAndDontsOrg;
+export default DosAndDontsB3;
