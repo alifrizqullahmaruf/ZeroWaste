@@ -11,7 +11,7 @@ import org6 from "/src/assets/org6.png";
 
 const CardOrg = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden" data-aos="zoom-in">
       <Marquee>
         <Card imageSrc={org1} text="VERMICOMPOSTING" />
         <Card imageSrc={org2} text="COMPOSTING" />

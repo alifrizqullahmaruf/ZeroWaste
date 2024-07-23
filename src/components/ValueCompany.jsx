@@ -4,13 +4,13 @@ import valueCompany from '/src/assets/valueCompany.png';
 const ValueCompany = () => {
   return (
     <section className='w-full py-20 bg-white'>
-      <div className='container mx-auto flex flex-col md:flex-row items-center max-w-[1240px] px-4'>
-        <div className='flex justify-center w-full mb-8 md:w-1/2 md:mb-0 md:justify-end'>
+      <div id='about' className='container mx-auto flex flex-col md:flex-row items-center max-w-[1240px] px-4'>
+        <div className='flex justify-center w-full mb-8 md:w-1/2 md:mb-0 md:justify-end' data-aos="fade-right">
           <img src={valueCompany} alt='ZeroWaste' className='rounded-lg w-full h-auto md:w-[624px] md:h-[602px]' />
         </div>
-        <div className='flex flex-col items-center space-y-8 mt-8 md:items-start md:w-1/2'>
+        <div className='flex flex-col items-center mt-8 space-y-8 md:items-start md:w-1/2'>
           {/* OUR VALUES */}
-          <div className='text-center md:text-left'>
+          <div className='pb-10 text-center md:text-left' data-aos="fade-left">
             <h3 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '32px', fontWeight: '800', lineHeight: 'normal' }}>
               OUR VALUES
             </h3>
@@ -21,7 +21,7 @@ const ValueCompany = () => {
             </div>
           </div>
           {/* OUR MISSION */}
-          <div className='text-center md:text-left'>
+          <div className='text-center md:text-left' data-aos="fade-left">
             <h3 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '32px', fontWeight: '800', lineHeight: 'normal' }}>
               OUR MISSION
             </h3>

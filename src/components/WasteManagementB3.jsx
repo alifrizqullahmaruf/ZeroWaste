@@ -2,7 +2,8 @@ import React from 'react';
 
 const WasteManagementB3 = () => {
   return (
-    <section className='flex flex-col items-center px-4 py-20 bg-white md:px-8'>
+    <section className='flex flex-col items-center px-4 py-20 bg-white md:px-8' data-aos="zoom-in"
+    >
       <h2 className='text-[#132322] font-extrabold text-center mb-8 md:mb-12' 
           style={{ fontFamily: 'Montserrat', fontSize: '32px', fontWeight: '800', lineHeight: 'normal', width: '100%', maxWidth: '610px' }}>
         B3 WASTE MANAGEMENT

@@ -8,7 +8,7 @@ import inorg3 from "/src/assets/inorg3.png";
 
 const CardInOrg = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden" data-aos="zoom-in">
       <Marquee>
         <Card imageSrc={inorg1} text="MAKING ECOBRICK" />
         <Card imageSrc={inorg2} text="MAKING PAPER FROM WASTE PAPER" />

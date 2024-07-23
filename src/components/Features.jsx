@@ -5,7 +5,7 @@ import features3 from '/src/assets/features3.png';
 
 const Features = () => {
   return (
-    <section className='flex flex-col items-center py-20 bg-[#BFDED6]'>
+    <section className='flex flex-col items-center py-20 bg-[#BFDED6]'data-aos="zoom-in">
       <h2 className='text-[#132322] font-extrabold mb-12 text-center' style={{ fontFamily: 'Montserrat', fontSize: '36px', fontWeight: '800', lineHeight: 'normal' }}>
         What can you do with ZeroWaste?
       </h2>

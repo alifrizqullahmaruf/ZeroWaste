@@ -5,10 +5,10 @@ const HeroOrg = () => {
   return (
     <section className='w-full py-20 bg-white'>
       <div className='container mx-auto flex flex-col md:flex-row items-center max-w-[1240px]'>
-        <div className='flex justify-center w-full mt-8 md:w-1/2 md:mt-0 md:justify-end'>
+        <div className='flex justify-center w-full mt-8 md:w-1/2 md:mt-0 md:justify-end' data-aos="fade-right">
           <img src={categoriesOrganic} alt='ZeroWaste' className='w-full h-auto max-w-xs rounded-lg md:w-auto md:max-w-none' />
         </div>
-        <div className='w-full mt-8 text-center md:w-1/2 md:text-left md:mt-0'>
+        <div className='w-full mt-8 text-center md:w-1/2 md:text-left md:mt-0' data-aos="fade-left">
           <h1 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '36px', md: { fontSize: '48px' }, fontWeight: '800', lineHeight: 'normal' }}>
             ORGANIC WASTE
           </h1>

@@ -8,7 +8,7 @@ import b33 from "/src/assets/b33.png";
 
 const CardB3 = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden" data-aos="zoom-in">
       <Marquee>
         <Card imageSrc={b31} text="USED COSMETICS AND SKINCARE" />
         <Card imageSrc={b32} text="USED BATTERY" />

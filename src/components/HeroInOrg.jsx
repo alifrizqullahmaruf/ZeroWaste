@@ -5,7 +5,7 @@ const HeroInOrg = () => {
   return (
     <section className='w-full py-20 bg-white'>
       <div className='container mx-auto flex flex-col md:flex-row items-center max-w-[1240px] px-4'>
-        <div className='flex justify-center w-full mt-8 md:w-1/2 md:mt-0 md:justify-end'>
+        <div className='flex justify-center w-full mt-8 md:w-1/2 md:mt-0 md:justify-end' data-aos="fade-right">
           <img 
             src={categoriesInOrganic} 
             alt='Inorganic Waste' 
@@ -13,7 +13,7 @@ const HeroInOrg = () => {
             style={{ width: '100%', maxWidth: '580px', height: 'auto', maxHeight: '580px' }}
           />
         </div>
-        <div className='w-full text-center md:w-1/2 md:text-left md:pl-8'>
+        <div className='w-full text-center md:w-1/2 md:text-left md:pl-8' data-aos="fade-left">
           <h1 className='text-[#132322] font-extrabold mb-4' style={{ fontFamily: 'Montserrat', fontSize: '36px', fontWeight: '800', lineHeight: 'normal' }}>
             INORGANIC WASTE
           </h1>

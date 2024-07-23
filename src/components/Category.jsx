@@ -13,12 +13,14 @@ const Category = () => {
 
   return (
     <section className='flex flex-col items-center py-20 bg-[#EDF7F5]'>
-      <h2 className='text-[#132322] font-extrabold mb-12 text-center' style={{ fontFamily: 'Montserrat', fontSize: '48px', fontWeight: '800', lineHeight: 'normal' }}>
+      <h2 id='category' className='text-[#132322] font-extrabold mb-12 text-center' style={{ fontFamily: 'Montserrat', fontSize: '48px', fontWeight: '800', lineHeight: 'normal' }}>
         CATEGORIES
       </h2>
-      <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3' >
         <div
           className='flex flex-col items-center gap-8 p-8 transition-transform duration-300 bg-white cursor-pointer rounded-xl hover:scale-105'
+          data-aos="zoom-in"
+           data-aos-delay="300"
           onClick={() => handleNavigation('/organic')}
         >
           <p className='text-[#132322] text-center' style={{ fontFamily: 'Montserrat', fontSize: '32px', fontWeight: '800', lineHeight: '24px' }}>
@@ -28,6 +30,8 @@ const Category = () => {
         </div>
         <div
           className='flex flex-col items-center gap-8 p-8 transition-transform duration-300 bg-white cursor-pointer rounded-xl hover:scale-105'
+          data-aos="zoom-in"
+           data-aos-delay="400"
           onClick={() => handleNavigation('/inorganic')}
         >
           <p className='text-[#132322] text-center' style={{ fontFamily: 'Montserrat', fontSize: '32px', fontWeight: '800', lineHeight: '24px' }}>
@@ -37,6 +41,8 @@ const Category = () => {
         </div>
         <div
           className='flex flex-col items-center gap-8 p-8 transition-transform duration-300 bg-white cursor-pointer rounded-xl hover:scale-105'
+          data-aos="zoom-in"
+           data-aos-delay="500"
           onClick={() => handleNavigation('/b3')}
         >
           <p className='text-[#132322] text-center' style={{ fontFamily: 'Montserrat', fontSize: '32px', fontWeight: '800', lineHeight: '24px' }}>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const WasteManagementOrg = () => {
   return (
-    <section className='flex flex-col items-center py-20 bg-white' style={{ minHeight: '550px' }}>
+    <section className='flex flex-col items-center py-20 bg-white' style={{ minHeight: '550px' }} data-aos="zoom-in">
       <h2 className='text-[#132322] font-extrabold mb-8 text-center' style={{ fontFamily: 'Montserrat', fontSize: '36px', md: { fontSize: '48px' }, fontWeight: '800', lineHeight: 'normal', width: '90%', maxWidth: '610px' }}>
         ORGANIC WASTE MANAGEMENT
       </h2>
