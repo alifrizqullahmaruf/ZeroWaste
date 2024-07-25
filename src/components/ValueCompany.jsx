@@ -15,7 +15,7 @@ const ValueCompany = () => {
               OUR VALUES
             </h3>
             <div className='w-full md:w-[650px] h-auto flex-shrink-0'>
-              <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '16px', fontWeight: '400', lineHeight: '24px' }}>
+              <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '18px', fontWeight: '400', lineHeight: '24px' }}>
                 We believe that anyone, especially homemakers who often manage household waste, has the power to make a positive impact on the environment. We strive to be a reliable source of information and education, empowering individuals to make informed decisions about waste management.
               </p>
             </div>
@@ -26,7 +26,7 @@ const ValueCompany = () => {
               OUR MISSION
             </h3>
             <div className='w-full md:w-[650px] h-auto flex-shrink-0'>
-              <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '16px', fontWeight: '400', lineHeight: '24px' }}>
+              <p className='text-[#132322]' style={{ fontFamily: 'Montserrat', fontSize: '18px', fontWeight: '400', lineHeight: '24px' }}>
                 We want to provide the knowledge and resources needed to confidently manage household waste. Furthermore, we encourage practices that minimize our environmental footprint and conserve resources.
               </p>
             </div>

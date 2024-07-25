@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-
+import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
+  const handleNavigation = (route) => {
+    navigate(route);
+  };
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -21,10 +25,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full h-[80px] px-5 md:px-16 py-5 flex items-center z-10 transition-colors duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-white'}`}>
+    <nav className={`fixed top-0 w-full h-[80px] px-5 md:px-16 py-5 flex items-center z-10 transition-colors duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-[#EDF7F5]'}`}>
       <div className='container flex items-center justify-between mx-auto'>
-        <div className='text-[#132322] text-xl font-bold' style={{ fontFamily: 'Montserrat', fontSize: '20px', fontWeight: '700' }}>
-          ZeroWaste
+        <div className='text-[#132322] text-xl font-bold' style={{ fontFamily: 'Montserrat', fontSize: '20px', fontWeight: '700' }} onClick={() => handleNavigation('/')}>
+          <a href="">ZeroWaste</a>
         </div>
         <div className='hidden space-x-6 md:flex'>
           <a href='#about' className='text-[#132322] hover:text-gray-600' style={{ fontFamily: 'Montserrat', fontSize: '14px', fontWeight: '600' }}>

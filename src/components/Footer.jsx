@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className='mb-4 font-extrabold' style={{ fontFamily: 'Montserrat', fontSize: '36px', fontWeight: '800', lineHeight: 'normal' }}>
             Zero<span className='text-[#BFDED6]'>Waste</span>
           </h2>
-          <p style={{ fontFamily: 'Montserrat', fontSize: '20px', fontWeight: '700', lineHeight: '24px', width: '100%' }}>
+          <p style={{ fontFamily: 'Montserrat', fontSize: '18px', fontWeight: '700', lineHeight: '24px', width: '200px' }}>
             Make a difference, start at home.
           </p>
         </div>
