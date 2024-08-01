@@ -1,4 +1,3 @@
-import React from 'react';
 import doIcon from '/src/assets/do.png';
 import dontIcon from '/src/assets/dont.png';
 
@@ -16,19 +15,19 @@ const DosAndDontsOrg = () => {
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={doIcon} alt='Do' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px',fontSize: '18px' }}>
-              <span className='font-bold'> Recycle. </span>   Separate recyclable materials such as plastics, glass, metals, and paper from other waste.
+              <span className='font-bold'> Reduce food waste. </span>    Plan your meals, buy only what you need, and store food properly to minimize spoilage.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={doIcon} alt='Do' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px',fontSize: '18px' }}>
-              <span className='font-bold'> Reuse items. </span>   Consider reusing items like glass jars, containers, or shopping bags.
+              <span className='font-bold'>  Segregate waste. </span>   Separate organic waste from other types of waste at the source to prevent contamination of recyclable materials.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={doIcon} alt='Do' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px',fontSize: '18px' }}>
-              <span className='font-bold'> Reduce packaging. </span>   Choose products with less packaging or eco-friendly packaging to reduce the amount of inorganic waste generated.
+              <span className='font-bold'> Compost. </span>    You can compost food scraps, yard trimming, and even some paper products.
               </span>
             </li>
           </ul>
@@ -43,19 +42,19 @@ const DosAndDontsOrg = () => {
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={dontIcon} alt='Dont' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px',fontSize: '18px' }}>
-              <span className='font-bold'> Mix inorganic and organic waste. </span>   Keep inorganic and organic waste separate to facilitate proper disposal and recycling.
+              <span className='font-bold'> Burn organic waste. </span>    Burning releases harmful air pollutants and contributes to climate change.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={dontIcon} alt='Dont' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px',fontSize: '18px' }}>
-              <span className='font-bold'> Burn inorganic waste </span>   as it can release harmful pollutants into the air and contribute to air pollution.
+              <span className='font-bold'> Landfill organic waste.  </span>   Organic waste decomposes anaerobically in landfills, generating methane, a potent greenhouse gas.
               </span>
             </li>
             <li className='flex items-start gap-4 w-full max-w-[473px] py-2'>
               <img src={dontIcon} alt='Dont' className='w-6 h-6' />
               <span className='text-[#132322] text-sm md:text-base' style={{ fontFamily: 'Montserrat', lineHeight: '24px',fontSize: '18px' }}>
-              <span className='font-bold'> Ignore product labels. </span>   Pay attention to labels on products, especially those indicating recyclability or special disposal instructions. Follow these guidelines accordingly.
+              <span className='font-bold'> Add chemicals to your compost pile. </span>    Avoid using pesticides or other harmful chemical in your compost.
               </span>
             </li>
           </ul>
